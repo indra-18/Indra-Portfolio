@@ -18,7 +18,8 @@ import {
     tripguide,
     github,
     tuner,
-    frenzy
+    frenzy,
+    internet
 
   } from "../assets";
   
@@ -180,6 +181,7 @@ import {
       ],
       image: tuner,
       source_code_link: "https://github.com/indra-18/Tuner-Video-Share-MERN",
+      deploy_link: "https://gentle-beignet-b42373.netlify.app/"
     },
     {
       name: "Frenzy",
@@ -205,6 +207,7 @@ import {
       ],
       image: frenzy,
       source_code_link: "https://github.com/indra-18/Merchandise-App-MERN",
+      deploy_link: "https://dancing-kulfi-054f08.netlify.app/"
     },
   ];
   
