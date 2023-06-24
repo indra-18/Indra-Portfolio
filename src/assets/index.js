@@ -31,7 +31,8 @@ import contact from "./contact.png";
 import whiteman from "./whiteman.png";
 import developer from "./developer.png";
 import chevronUp from "./chevronUp.png";
-import chevronDown from "./chevronDown.png"
+import chevronDown from "./chevronDown.png";
+import academy10x from "./10x.png";
 
 export {
   logoi,
@@ -63,5 +64,6 @@ export {
   developer,
   whiteman,
   chevronUp,
-  chevronDown
+  chevronDown,
+  academy10x
 };

@@ -19,7 +19,8 @@ import {
     github,
     tuner,
     frenzy,
-    internet
+    internet,
+    academy10x
 
   } from "../assets";
   
@@ -115,8 +116,8 @@ import {
   const experiences = [
     {
       title: "Full stack Developer Intern",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "10x Academy",
+      icon: academy10x,
       iconBg: "#E6DEDD",
       date: "Sept 2022 - Present",
       points: [
