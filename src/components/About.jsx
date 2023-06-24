@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { ComputersCanvas } from "./canvas";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -23,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -38,22 +39,25 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+      <div className="flex justify-between">
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
+      <ComputersCanvas />
+      </div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React, Node.js, ExpressJS and MongoDB Database.
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
-
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-4 text-secondary text-[17px] leading-[30px]'
+        >
+          I'm a skilled software developer with experience in JavaScript and
+          Python, and expertise in frameworks like React, Node.js, ExpressJS and MongoDB Database.
+          I'm a quick learner and collaborate closely with clients to
+          create efficient, scalable, and user-friendly solutions that solve
+          real-world problems. Let's work together to bring your ideas to life!
+        </motion.p>
       <div className='mt-20 flex flex-wrap justify-around gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

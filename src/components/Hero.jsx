@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { whiteman, chevronDown } from "../assets";
 
 const Hero = () => {
@@ -30,8 +29,6 @@ const Hero = () => {
         </div>
 
       </div>
-
-      {/* <ComputersCanvas /> */}
 
       <div className=' absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about' className="scale-50">
