@@ -20,8 +20,11 @@ import {
     tuner,
     frenzy,
     internet,
-    academy10x
-
+    academy10x,
+    expressjs,
+    jest,
+    python,
+    bootstrap
   } from "../assets";
   
   export const navLinks = [
@@ -75,10 +78,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "Express JS",
-    //   icon: null,
-    // },
+    {
+      name: "Express JS",
+      icon: expressjs,
+    },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -91,26 +94,26 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    // {
-    //   name: "Python",
-    //   icon: null,
-    // },
-    // {
-    //   name: "BootStrap5",
-    //   icon: null,
-    // },
-    // {
-    //   name: "Jest",
-    //   icon: null,
-    // },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "BootStrap5",
+      icon: bootstrap,
+    },
+    {
+      name: "Jest",
+      icon: jest,
+    },
     {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "GitHub",
-    //   icon:   github,
-    // },
+    {
+      name: "GitHub",
+      icon:   github,
+    },
   ];
   
   const experiences = [

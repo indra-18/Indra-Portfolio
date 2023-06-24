@@ -17,6 +17,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import bootstrap from "./tech/bootstrap.png";
+import expressjs from "./tech/expressjs.png";
+import jest from "./tech/jest.png";
+import python from "./tech/python.png"
 
 import meta from "./company/meta.png";
 
@@ -65,5 +69,9 @@ export {
   whiteman,
   chevronUp,
   chevronDown,
-  academy10x
+  academy10x,
+  bootstrap,
+  expressjs,
+  jest,
+  python
 };
