@@ -26,6 +26,13 @@ import tripguide from "./tripguide.png";
 import frenzy from "./frenzy.jpeg";
 import tuner from "./tuner.jpeg"
 
+import hello from "./hello.png";
+import contact from "./contact.png";
+import whiteman from "./whiteman.png";
+import developer from "./developer.png";
+import chevronUp from "./chevronUp.png";
+import chevronDown from "./chevronDown.png"
+
 export {
   logoi,
   backend,
@@ -51,4 +58,10 @@ export {
   tuner,
   frenzy,
   internet,
+  hello,
+  contact,
+  developer,
+  whiteman,
+  chevronUp,
+  chevronDown
 };
