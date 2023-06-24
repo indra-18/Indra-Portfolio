@@ -1,4 +1,4 @@
-import logo from "./logo.svg"
+import logoi from "./logoi.png"
 import backend from "./backend.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -27,7 +27,7 @@ import frenzy from "./frenzy.jpeg";
 import tuner from "./tuner.jpeg"
 
 export {
-  logo,
+  logoi,
   backend,
   mobile,
   web,
@@ -50,5 +50,5 @@ export {
   tripguide,
   tuner,
   frenzy,
-  internet
+  internet,
 };
