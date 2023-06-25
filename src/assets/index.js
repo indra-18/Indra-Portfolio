@@ -38,6 +38,8 @@ import developer from "./developer.png";
 import chevronUp from "./chevronUp.png";
 import chevronDown from "./chevronDown.png";
 import academy10x from "./10x.png";
+import linkedIn from './linkedin.png';
+import githubGold from './githubGold.png';
 
 export {
   logoi,
@@ -75,5 +77,7 @@ export {
   expressjs,
   jest,
   python,
-  myPortfolio
+  myPortfolio,
+  githubGold,
+  linkedIn
 };
