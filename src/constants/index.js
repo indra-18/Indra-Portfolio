@@ -24,7 +24,8 @@ import {
     expressjs,
     jest,
     python,
-    bootstrap
+    bootstrap,
+    myPortfolio
   } from "../assets";
   
   export const navLinks = [
@@ -178,10 +179,6 @@ import {
           name: "mongodb",
           color: "pink-text-gradient",
         },
-        {
-          name: "cloudinary",
-          color: "orange-text-gradient",
-        },
       ],
       image: tuner,
       source_code_link: "https://github.com/indra-18/Tuner-Video-Share-MERN",
@@ -201,17 +198,35 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "redux-toolkit",
           color: "pink-text-gradient",
-        },
-        {
-          name: "expressjs",
-          color: "orange-text-gradient",
         },
       ],
       image: frenzy,
       source_code_link: "https://github.com/indra-18/Merchandise-App-MERN",
-      deploy_link: "https://dancing-kulfi-054f08.netlify.app/"
+      deploy_link: null
+    },
+    {
+      name: "Indra's Portfolio",
+      description:
+        "You've arrived at the heart of my work and you're already here. 🎉Keep Surfing 🏄‍♂️, Thank You.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: myPortfolio,
+      source_code_link: "https://github.com/indra-18/Merchandise-App-MERN",
+      deploy_link: null
     },
   ];
   

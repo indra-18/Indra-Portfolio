@@ -28,7 +28,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import frenzy from "./frenzy.jpeg";
-import tuner from "./tuner.jpeg"
+import tuner from "./tuner.jpeg";
+import myPortfolio from "./myPortfolio.jpeg"
 
 import hello from "./hello.png";
 import contact from "./contact.png";
@@ -73,5 +74,6 @@ export {
   bootstrap,
   expressjs,
   jest,
-  python
+  python,
+  myPortfolio
 };
