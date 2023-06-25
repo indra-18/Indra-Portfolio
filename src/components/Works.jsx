@@ -25,9 +25,9 @@ const ProjectCard = ({
             scale: 1,
             speed: 450,
           }}
-          className=' shadow-inner shadow-secondary  p-5 rounded-2xl sm:w-[300px] w-4/5 max-lg:mb-2'
+          className=' shadow-inner shadow-secondary  p-5 rounded-2xl sm:w-[300px] w-full max-lg:mb-2'
         >
-          <div className=' w-full h-[160px] shadow-inner shadow-purple-400 '>
+          <div className=' relative w-full h-[160px] shadow-inner shadow-purple-400 '>
             <img
               src={image}
               alt='project_image'

@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { contact } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -66,13 +67,17 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row justify-around overflow-hidden max-sm:m-0`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className=' relative max-sm:w-full sm:flex-[0.75] shadow-inner shadow-purple-500 p-8 rounded-2xl w-3/4'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
+        <div className=" absolute top-8 right-8 flex items-center gap-1">
+          <div className=" animate-ping bg-red-600 bg-blend-hard-light w-2 h-2 rounded-full"></div>
+          <strong>Open To Work</strong>
+        </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -105,7 +110,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={2}
               name='message'
               value={form.message}
               onChange={handleChange}
@@ -124,10 +129,10 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className=' max-sm:hidden xl:flex-1 xl:h-auto h-auto self-center max-sm:opacity-20'
       >
-        <EarthCanvas />
+        <img src={contact} className=" scale-125" alt="group of colleagues" />
       </motion.div>
     </div>
   );
