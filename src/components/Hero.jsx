@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { whiteman, chevronDown } from "../assets";
 
@@ -32,19 +30,6 @@ const Hero = () => {
 
       <div className=' absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about' className="scale-50">
-          {/* <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-[lightblue] mb-1'
-            />
-          </div> */}
           <img src={chevronDown} className="motion-safe:animate-bounce w-full h-full" alt="scroll down" />
         </a>
       </div>

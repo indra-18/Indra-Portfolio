@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import GitHubContributions from './canvas/GithubContributions'
-
+// import { GitHubContributions } from './canvas'
 const Footer = () => {
     const [showCredits, setShowCredits] = useState(false)
   return (
