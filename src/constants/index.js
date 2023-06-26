@@ -12,14 +12,15 @@ import {
     nodejs,
     mongodb,
     git,
-    meta,
-    carrent,
-    jobit,
-    tripguide,
     github,
     tuner,
-    frenzy
-
+    frenzy,
+    academy10x,
+    expressjs,
+    jest,
+    python,
+    bootstrap,
+    myPortfolio
   } from "../assets";
   
   export const navLinks = [
@@ -73,10 +74,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "Express JS",
-    //   icon: null,
-    // },
+    {
+      name: "Express JS",
+      icon: expressjs,
+    },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -89,33 +90,33 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    // {
-    //   name: "Python",
-    //   icon: null,
-    // },
-    // {
-    //   name: "BootStrap5",
-    //   icon: null,
-    // },
-    // {
-    //   name: "Jest",
-    //   icon: null,
-    // },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "BootStrap5",
+      icon: bootstrap,
+    },
+    {
+      name: "Jest",
+      icon: jest,
+    },
     {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "GitHub",
-    //   icon:   github,
-    // },
+    {
+      name: "GitHub",
+      icon:   github,
+    },
   ];
   
   const experiences = [
     {
       title: "Full stack Developer Intern",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "10x Academy",
+      icon: academy10x,
       iconBg: "#E6DEDD",
       date: "Sept 2022 - Present",
       points: [
@@ -173,13 +174,10 @@ import {
           name: "mongodb",
           color: "pink-text-gradient",
         },
-        {
-          name: "cloudinary",
-          color: "orange-text-gradient",
-        },
       ],
       image: tuner,
       source_code_link: "https://github.com/indra-18/Tuner-Video-Share-MERN",
+      deploy_link: "https://gentle-beignet-b42373.netlify.app/"
     },
     {
       name: "Frenzy",
@@ -195,16 +193,35 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "redux-toolkit",
           color: "pink-text-gradient",
-        },
-        {
-          name: "expressjs",
-          color: "orange-text-gradient",
         },
       ],
       image: frenzy,
       source_code_link: "https://github.com/indra-18/Merchandise-App-MERN",
+      deploy_link: null
+    },
+    {
+      name: "Indra's Portfolio",
+      description:
+        "You've arrived at the heart of my work and you're already here. 🎉Keep Surfing 🏄‍♂️, Thank You.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: myPortfolio,
+      source_code_link: "https://github.com/indra-18/Merchandise-App-MERN",
+      deploy_link: null
     },
   ];
   

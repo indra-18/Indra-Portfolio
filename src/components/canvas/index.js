@@ -1,6 +1,6 @@
-import EarthCanvas from "./Earth";
-import BallCanvas from "./Ball";
+import SocialLinks from "./SocialLinks"
+import GitHubContributions from "./GitHubContributions"
 import ComputersCanvas from "./Computers";
 import StarsCanvas from "./Stars";
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
+export { SocialLinks, GitHubContributions, ComputersCanvas, StarsCanvas };
