@@ -11,7 +11,7 @@ const Footer = () => {
       >Credits</button>
       <div className={`${showCredits ? 'visible' : 'hidden'} shadow-md shadow-green-300 absolute bottom-48 bg-black p-6`}>
         <ol className='list-disc'>
-            <li>Tutorial: https://www.youtube.com/watch?v=0fYi8SGA20k&list=WL&index=8</li>
+            <li>Adrian | JavaScript Mastery</li>
             <li>3d Image in skills section: ttps://icons8.com/illustrations/illustration/3d-business-guy-working-on-a-computer</li>
             <li>3d Image in contact section: https://icons8.com/illustrations/illustration/business-3d-young-people-in-casual-clothes-standing</li>
             <li>Icons: https://icons8.com</li>
