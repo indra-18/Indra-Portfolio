@@ -1,0 +1,11 @@
+Model Information:
+* title:	Play chess in reverse to open!
+* source:	https://sketchfab.com/3d-models/play-chess-in-reverse-to-open-0f6df3af350746f980e5f43e718bb11f
+* author:	Leon_dp (https://sketchfab.com/leondp)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Play chess in reverse to open!" (https://sketchfab.com/3d-models/play-chess-in-reverse-to-open-0f6df3af350746f980e5f43e718bb11f) by Leon_dp (https://sketchfab.com/leondp) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
